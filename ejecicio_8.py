@@ -9,7 +9,7 @@
 # Codigo
 nota_usuario = int(input("Ingrese su nota "))
 
-if(nota_usuario > 70):
+if(nota_usuario > 80):
     print("Has aprobado ")
 else:
     print("No has aprobado ")
