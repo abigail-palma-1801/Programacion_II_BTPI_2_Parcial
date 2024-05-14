@@ -25,7 +25,7 @@ def mutiplicacion(numero1:int, numero2:int) -> int:
 print(mutiplicacion(5,2))
 
 
-def dividir(numero1:int, numero2:int) -> int:
+def dividir(numero1:int, numero2:int) -> float:
     return numero1 / numero2
 
 print(dividir(20,5))
