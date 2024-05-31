@@ -1,5 +1,5 @@
 from menu import imprimir_menu
-
+from datos import crear_tarea,obtener_todas_las_tareas
 
 salir = False
 
@@ -16,7 +16,8 @@ while not salir:
     elif resp == '3':
         pass
     elif resp == '4':
-        pass
+        crear_tarea('hacer la tarea de español')
+        print(obtener_todas_las_tareas())
     elif resp == '5':
         pass
     else:

@@ -1,5 +1,15 @@
+from uuid import uuid4
 
-Tareas = []
+_tareas = []
 
 def crear_tarea(Titulo: str):
-    pass 
+    nueva_tarea = {
+        'id': uuid4(),
+        'titulo': Titulo,
+        'completada': False
+    }
+
+    _tareas.append(nueva_tarea)
+
+def obtener_todas_las_tareas():
+    return _tareas
