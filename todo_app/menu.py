@@ -2,7 +2,7 @@
 
 
 def imprimir_menu():
-    print('----- Valentin Elizalde -----')
+    print('----- TODO APP -----')
     print('1. Ver todas las tareas')
     print('2. Ver tareas pendientes')
     print('3. Ver tareas completadas')

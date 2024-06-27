@@ -4,11 +4,11 @@ def crear_usuario(nombre:str, apellido:str, f_nac:str, estado:bool=True):
     if nombre == 'Abigail':
         print('El nombre es Abigail')
         
-        nuevo_usuario = {
-            'nombre': nombre,
-            'apellido': apellido,
-            'f_nac': f_nac,
-            'estado': estado
+    nuevo_usuario = {
+        'nombre': nombre,
+        'apellido': apellido,
+        'f_nac': f_nac,
+        'estado': estado
         }
 
     return nuevo_usuario

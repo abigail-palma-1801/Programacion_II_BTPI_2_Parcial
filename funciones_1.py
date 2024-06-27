@@ -5,4 +5,3 @@ def saludar(nombre:str):
 
 
 saludar("Abigail")
-saludar()
