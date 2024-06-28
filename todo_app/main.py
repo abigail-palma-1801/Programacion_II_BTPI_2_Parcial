@@ -25,6 +25,9 @@ print(test_data)
 json_text = json.dumps(test_data)
 print(json_text)
 
+with open('datos.json','w') as datos_file:
+    datos_file.write(json_text)
+    datos_file.close()
 
 
 while not salir:
